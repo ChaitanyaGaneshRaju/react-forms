@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Router history={history}>
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/react-forms">
             <Form />
           </Route>
           <Route path="/display">
