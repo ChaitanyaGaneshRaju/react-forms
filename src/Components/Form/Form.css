@@ -1,0 +1,98 @@
+#form{
+  margin: 2% 0% 0% 20%;
+  padding: 2%;
+  width: 50%;
+  height:85vh;
+  background-color: white;
+  border-radius: 0.5em;
+  box-shadow: 10px 10px 50px grey;
+}
+.timeline {
+  margin: 50px 100px;
+  height: 2px;
+  background-color: rgba(157, 157, 157, 255);
+}
+
+.timeline-progress {
+  width: 0%;
+  height: 100%;
+}
+
+.timeline-items {
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: -12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.timeline-item {
+  position: relative;
+}
+
+.timeline-item > label {
+  color: white;
+  font-weight: bold;
+  width: 25px;
+  height: 25px;
+  background-color: rgba(60, 82, 182, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+
+.timeline-content {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+.switching-buttons > button {
+  margin-top: 5% ;
+  background-color: white;
+  width: 50%;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+}
+
+.active{
+    border-bottom: 2px solid rgba(60, 82, 182, 255) !important;
+}
+
+.business-form,.personal-form{
+    margin-top: 2em;
+    padding:0% 15% 0% 15%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5em;
+}
+.business-form > input ,
+.personal-form > input{
+    border: none;
+    height:3em;
+    border-bottom:2px solid grey; 
+    outline: none;  
+}
+
+.previous-next-buttons{
+  display:flex;
+  flex-direction: row;
+  column-gap: 1em;
+}
+
+.previous-button,.submit-button{
+    width:30%;
+    color:white;
+    cursor: pointer;
+    background-color: rgba(60, 82, 182, 255);
+    padding:0.5em;
+    border:none;
+    border-radius: 0.2em;
+}

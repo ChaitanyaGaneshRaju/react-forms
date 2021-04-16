@@ -1,92 +1,70 @@
-![Image description](https://i1.faceprep.in/ProGrad/prograd-logo.png)
+# Getting Started with Create React App
 
-# ProGrad Lab | REACT - FORMS
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Learning Goals
+## Available Scripts
 
-In this exercise, the goal is to learn forms in react:
+In the project directory, you can run:
 
-- forms
+### `npm start`
 
-## Getting started
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-1. Fork this repo
-2. Clone this repo
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-Whenever you create a first significant change, you should make your first commit.
+### `npm test`
 
-3. Follow these [guidelines to add, commit and push changes](https://github.com/FACEPrep-ProGrad/general-guidelines-labs-project-builders.git).
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-In the end of this document, you will find guidelines on how to submit the exercise.
+### `npm run build`
 
-## Instructions
-In this lab we will try to work with forms. You can see the below output for reference.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-![Screenshot](https://i1.faceprep.in/ProGrad/l4-output1.png)
-![Screenshot](https://i1.faceprep.in/ProGrad/l4-output2.png)
-![Screenshot](https://i1.faceprep.in/ProGrad/l4-output4.png)
-![Screenshot](https://i1.faceprep.in/ProGrad/l4-output3.png)
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### PROGRESSION 1 | FORM COMPONENT
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Create a form component and there are two parts in the form component. Personal and Business. When the user select personal. The first three fields should be displayed
-similar to the output shown here.
-**Note: Please use conditionals in react to switch between Personal and Business**.
+### `npm run eject`
 
-![Screenshot](https://i1.faceprep.in/ProGrad/l4-output1.png).
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Personal details consists of the following.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-- firstName
-- lastName
-- email
-- phoneNumber
-- Country
-- IFSC code
-- account Number
-- Country Id
-- city
-- postcode
-- address
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-When the user selects the business. Then the followings details has to be got.
-- businessName
-- emall
-- phoneNumber
+## Learn More
 
-![Screenshot](https://i1.faceprep.in/ProGrad/l4-output5.png).
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-### PROGRESSION 2 | CURRENCY
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Create a currency.json and keep a list of currencies. Based on the country selected the currency name should be displayed dynamically. Display the country in the drop down list box.
+### Code Splitting
 
-The data can be stored in an array
-![Screenshot](https://i1.faceprep.in/ProGrad/l4-output4.png).
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### PROGRESSION 3 | PRINT THE DATA
-Display the detail in display component.
+### Analyzing the Bundle Size
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Bonus | VALIDATIONS
+### Making a Progressive Web App
 
-You can add validations to the form field
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Bonus | UI DESIGN
+### Advanced Configuration
 
-You are free to style the form as per your own creativity.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-## Submission
+### Deployment
 
-If you didn't add, commit and push the changes you made, this is the last call. :smile:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-please share your github links with your Mentors. Your Mentor's will check up your work and provide feedback. 
+### `npm run build` fails to minify
 
-## Summary
-
-If you managed to do it, good job! :trophy:
-
-We are proud of you!
-
-Happy Coding ProGrad ❤️!
-
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

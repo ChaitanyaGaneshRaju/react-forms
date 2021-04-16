@@ -1,0 +1,8 @@
+#display-data{
+    margin: 2% 0% 0% 20%;
+    padding: 2%;
+    width: 50%;
+    background-color: white;
+    border-radius: 0.5em;
+    box-shadow: 10px 10px 50px grey;
+  }
