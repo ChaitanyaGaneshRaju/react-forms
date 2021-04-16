@@ -2,12 +2,12 @@ import "./App.css";
 import Form from "./Components/Form/Form";
 import { Router, Route, Switch } from "react-router-dom";
 import Display from "./Components/Display/Display";
-// import { useEffect } from "react";                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+import history from "./Components/Form/history";
 
-function App(props) {                                                           
+function App() {                                                           
   return (
     <div className="App">
-      <Router>
+      <Router history={history}>
         <Switch>
           <Route exact path="/">
             <Form />
