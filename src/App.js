@@ -8,7 +8,7 @@ import history from "./Components/Form/history";
 function App(props) {                                                           
   return (
     <div className="App">
-      <Router history={history}>
+      <Router>
         <Switch>
           <Route exact path="/">
             <Form />
